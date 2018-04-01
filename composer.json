@@ -1,13 +1,13 @@
 {
     "require":{
-        "monolog/monolog": "^1.23"
+        "illuminate/routing": "^5.4",
+        "illuminate/events": "^5.4",
+        "illuminate/database": "^5.4",
+        "illuminate/view": "^5.4"
     },
     "autoload":{
-        "psr_4":{ "App:\\" : "app/" },
-        "psr_0":{ "App\\" : "app/"},
-        "classmap":["database"],
-        "files":[
-            "kit/functions.php"
-        ]
+        "psr-4":{
+            "App\\" : "app/"
+        }
     }
 }
