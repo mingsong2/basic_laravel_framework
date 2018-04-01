@@ -1,0 +1,13 @@
+{
+    "require":{
+        "monolog/monolog": "^1.23"
+    },
+    "autoload":{
+        "psr_4":{ "App:\\" : "app/" },
+        "psr_0":{ "App\\" : "app/"},
+        "classmap":["database"],
+        "files":[
+            "kit/functions.php"
+        ]
+    }
+}
