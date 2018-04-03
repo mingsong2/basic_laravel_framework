@@ -11,6 +11,6 @@
             "App\\" : "app/"
         }
     },
-    "minimum-stability": "1.0.0",
+    "minimum-stability": "dev",
     "version": "1.0.1"
 }
