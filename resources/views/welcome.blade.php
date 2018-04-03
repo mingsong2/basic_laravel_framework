@@ -2,3 +2,4 @@
 学生id:{{$data['id']}};<br>
 学生名name:{{$data['name']}}<br>
 学生age:{{$data['age']}}<br>
+
