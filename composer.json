@@ -1,5 +1,5 @@
 {
-    "name": "songming43/basicLaravel",
+    "name": "songming43/basic_laravel_framework",
     "require":{
         "illuminate/routing": "^5.4",
         "illuminate/events": "^5.4",
